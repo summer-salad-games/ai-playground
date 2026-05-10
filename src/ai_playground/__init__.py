@@ -1,7 +1,3 @@
-"""ai_playground package."""
+"""ai-playground: A simple terminal application."""
 
 __version__ = "0.1.0"
-
-
-def hello(name: str) -> str:
-    return f"Hello, {name}! Welcome to ai_playground."

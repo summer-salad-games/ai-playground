@@ -1,29 +1,37 @@
 # ai-playground
 
-Terminal-based hobby application.
+A simple terminal-based AI hobby application.
 
 ## Setup
 
-1. Create the virtual environment:
+### 1. Create Virtual Environment
 
 ```sh
 python -m venv .venv
 ```
 
-2. Activate it:
+### 2. Activate Virtual Environment
 
-- PowerShell: `.\.venv\Scripts\Activate.ps1`
-- Command Prompt: `.\.venv\Scripts\activate.bat`
-- Git Bash / WSL: `source .venv/bin/activate`
-
-3. Run the application with `make` or Python directly:
-
-```sh
-make run
+**PowerShell:**
+```powershell
+.\.venv\Scripts\Activate.ps1
 ```
 
-or
-
-```sh
-python -m ai_playground
+**Command Prompt:**
+```cmd
+.\.venv\Scripts\activate.bat
 ```
+
+**Git Bash / WSL:**
+```bash
+source .venv/bin/activate
+```
+
+## Requirements
+
+- Python 3.11 or higher
+- No external dependencies by default
+
+## License
+
+MIT
