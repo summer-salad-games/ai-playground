@@ -17,8 +17,14 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-### 2. Install Application
+### 2. Install The Application
 
 ```sh
 python install -e .
+```
+
+### 3. Run The Application
+
+```sh
+ai-playground
 ```
