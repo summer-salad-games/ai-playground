@@ -1,6 +1,6 @@
 # ai-playground
 
-A simple terminal-based AI hobby application.
+A simple terminal-based AI hobby app.
 
 ## Setup
 
@@ -17,21 +17,8 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-**Command Prompt:**
-```cmd
-.\.venv\Scripts\activate.bat
+### 2. Install Application
+
+```sh
+python install -e .
 ```
-
-**Git Bash / WSL:**
-```bash
-source .venv/bin/activate
-```
-
-## Requirements
-
-- Python 3.11 or higher
-- No external dependencies by default
-
-## License
-
-MIT

@@ -4,24 +4,14 @@ import argparse
 from ai_playground import __version__
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args():
     parser = argparse.ArgumentParser(
         prog="ai-playground",
-        description="A simple terminal-based hobby app.",
+        description="A simple terminal-based AI hobby app.",
     )
-    parser.add_argument(
-        "--name",
-        default="World",
-        help="Name to greet.",
-    )
-    parser.add_argument(
-        "--version",
-        action="version",
-        version=f"ai-playground {__version__}",
-    )
+
     return parser.parse_args()
 
 
-def main() -> None:
+def main():
     args = parse_args()
-    print(f"Hello, {args.name}!")
