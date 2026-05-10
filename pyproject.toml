@@ -8,7 +8,7 @@ authors = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "openai>=2.36,<2.37",
+    "lmstudio>=1.5,<1.6",
 ]
 
 [project.scripts]
